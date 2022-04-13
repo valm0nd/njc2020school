@@ -28,4 +28,6 @@ def Search():
         cursor = cursor)
     
 if __name__ == "__main__":
-    app.run(port = 1001, debug = True)
+    app.run(debug = True, use_reloader = True)
+    
+  
